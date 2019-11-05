@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".Cerita">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:textAlignment="center"
+        android:id="@+id/tv"
+        android:text="PANDHAWA
+
+        \nPandhawa iku cacahe ana lima, mula terus kaprah diarani Pandhawa Lima. Puntadewa ya Yudhistira minangka putra pambayun, watak ambeng darma lan nrima ing pandum sarta adoh ing hawa kamurkan.
+        \nRaden Werkudara ya Bima sena gedhe dhuwur lan gagah prakosa kang nomer loro, Raden Janaka ya Kumbang Ali-ali kang kondhang ngganthenge, prigel lan trampil manah minangka panengahe Pandhawa, dene Nakula Sadewa mujudake satriya kembar kang uga duwe watak utama, ambeg darma, lan luhur bebudene. Wiwit cilik mula wis katon luhuring budi,seneng tetulung, welas asih marang sapdha wong kang nandhang kasangsaran.
+        \nPanengahe Pandhawa, dene Nakula Sadewa mujudake satriya kembar kang uga duwe watak utama, ambeg darma, lan luhur bebudene. Wiwit cilik mula wis katon luhuring budi, seneng tetulung, welas asih marang sapdha wong kang nandhang kasangsaran."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_below="@+id/tv"
+        android:text="OK"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

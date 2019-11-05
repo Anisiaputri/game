@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".MenuActivity">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:background="@drawable/chevronleft"
+        android:id="@+id/btn_left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="kembali"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/text_belajar"
+        android:text="BELAJAR"
+        android:textColor="#000"
+        android:textSize="30dp"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/aksara"
+        android:layout_centerVertical="true"
+        android:id="@+id/btn_aksarajawa"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/text_aksarajawa"
+        android:paddingBottom="5dp"
+        android:text="Aksara Jawa"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn_aksarajawa"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/sandhangan"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/btn_sandhangan"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:id="@+id/text_belajarsandhangan"
+        android:text="Sandhangan"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn_sandhangan"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pasangan"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/btn_pasangan"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/text_belajarpasangan"
+        android:text="Pasangan"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:layout_below="@+id/btn_pasangan"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".MenuSettingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:background="@drawable/chevronleft"
+        android:id="@+id/btn_left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="kembali"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suara"
+            android:textSize="35dp"
+            android:textColor="#000"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textview"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="1"
+            android:id="@+id/seekbar"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

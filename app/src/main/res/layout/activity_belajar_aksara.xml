@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".BelajarAksaraActivity">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_chevron"
+        android:background="@drawable/chevronleft"
+        android:onClick="kembali"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aksara Jawa"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="45dp"
+        android:textColor="#000"
+        android:id="@+id/text_view"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_haa"
+        android:background="@drawable/ha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/text_haa"
+        android:text="HA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_haa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_naa"
+        android:background="@drawable/na"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:id="@+id/text_naa"
+        android:text="NA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_naa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_caa"
+        android:background="@drawable/ca"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:id="@+id/text_caa"
+        android:text="CA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_caa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_raa"
+        android:background="@drawable/ra"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="183dp"
+        android:id="@+id/text_raa"
+        android:text="RA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_raa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_kaa"
+        android:background="@drawable/ka"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:id="@+id/text_kaa"
+        android:text="KA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_kaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_daa"
+        android:background="@drawable/da"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:id="@+id/text_daa"
+        android:text="DA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_daa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_taa"
+        android:background="@drawable/ta"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="365dp"
+        android:id="@+id/text_taa"
+        android:text="TA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_taa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_saa"
+        android:background="@drawable/sa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="420dp"
+        android:id="@+id/text_saa"
+        android:text="SA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_saa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="465dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_waa"
+        android:background="@drawable/wa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="472dp"
+        android:id="@+id/text_waa"
+        android:text="WA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_waa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="520dp"
+        android:layout_marginTop="85dp"
+        android:id="@+id/btn_laa"
+        android:background="@drawable/la"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="532dp"
+        android:id="@+id/text_laa"
+        android:text="LA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_laa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_paa"
+        android:background="@drawable/pa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/text_paa"
+        android:text="PA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_paa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_dhaa"
+        android:background="@drawable/dha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/text_dhaa"
+        android:text="DHA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_dhaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_jaa"
+        android:background="@drawable/ja"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:id="@+id/text_jaa"
+        android:text="JA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_jaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_yaa"
+        android:background="@drawable/ya"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="183dp"
+        android:id="@+id/text_yaa"
+        android:text="YA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_yaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_nyaa"
+        android:background="@drawable/nya"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:id="@+id/text_nyaa"
+        android:text="NYA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_nyaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_maa"
+        android:background="@drawable/ma"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:id="@+id/text_maa"
+        android:text="MA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_maa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_gaa"
+        android:background="@drawable/ga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="365dp"
+        android:id="@+id/text_gaa"
+        android:text="GA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_gaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_baa"
+        android:background="@drawable/ba"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="420dp"
+        android:id="@+id/text_baa"
+        android:text="BA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_baa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="465dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_thaa"
+        android:background="@drawable/tha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="465dp"
+        android:id="@+id/text_thaa"
+        android:text="THA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_thaa"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="520dp"
+        android:layout_marginTop="185dp"
+        android:id="@+id/btn_ngaa"
+        android:background="@drawable/nga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="520dp"
+        android:id="@+id/text_ngaa"
+        android:text="NGA"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_ngaa"/>
+
+</RelativeLayout>

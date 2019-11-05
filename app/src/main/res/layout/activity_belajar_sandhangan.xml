@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".BelajarSandhanganActivity">
+
+    <RelativeLayout
+        android:id="@+id/scrollVertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_chevron"
+            android:background="@drawable/chevronleft"
+            android:onClick="kembali"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandhangan"
+            android:textSize="35dp"
+            android:textColor="#000"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text_view" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="78dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nama"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sandhangan"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Wulu"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_wulu"
+                    android:layout_width="80dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/wulu" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda vokal i"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Suku"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_suku"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/suku" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda vokal u"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Taling"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_taling"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/taling" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda vokal e'"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Pepet"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_pepet"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/pepet" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda vokal e"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Taling Tarung"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_talingtarung"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/talingtarung" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda vokal o"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Layar"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_layar"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/layar" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda ganti konsonan r"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Wigyan"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_wigyan"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/wigyan" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda ganti konsonan h"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cecak"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_cecak"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/cecak" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda ganti konsonan ng"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Pangkon"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_pangkon"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/pangkon" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda penghilang vokal"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cakra"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_cakra"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/cakra" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="tanda ganti konsonan kra"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>

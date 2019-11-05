@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cerita"
+    tools:context=".BantuanActivity">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:background="@drawable/chevronleft"
+        android:id="@+id/btn_left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="kembali"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/text_bantuan"
+        android:text="BANTUAN"
+        android:textColor="#000"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Pada Menu Belajar ada tiga pilihan yaitu Aksara Jawa, Pasangan dan Sandhangan.
+        Pada Menu Belajar Aksara Jawa anda menekan aksara jawa untuk mendengarkan suaara dari aksara tersebut tetapi anda juga bisa tidak usah menekannya.
+        Begitu juga Menu Belajar Sandhangan dan Belajar Pasangan.
+        Pada Menu Puzzle anda bisa mencocokan huruf aksara yang tersedia.
+        \nSemoga Berhasil dan Bermanfaat."
+        />
+
+</RelativeLayout>
